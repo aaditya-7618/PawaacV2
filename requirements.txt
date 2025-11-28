@@ -1,0 +1,7 @@
+ollama - llama3.2-vision, gemma:2b 
+transformers
+pillow
+torch
+torchvision
+torchaudio
+opencv-python

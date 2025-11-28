@@ -1,0 +1,9 @@
+*env*
+src/__pycache__*
+.vscode
+aadiV/
+.DS*
+eventsVideo.mp4
+snapshots/
+*/*snapshots*/*
+*image*
