@@ -15,7 +15,6 @@ def improve_message(text_message):
     res = util.split_into_new_lines(res)
     final_alert = remove_ai_preface_lines(res)
 
-
     str = ""
     if message_type == "Critical":
         str += "🚨 CRITICAL ALERT 🚨\n"
@@ -23,8 +22,9 @@ def improve_message(text_message):
         str += "🟢 NORMAL UPDATE 🟢 \n"
 
     capitalized_alert = text_message[0].upper() + text_message[1:]
-    str += capitalized_alert
-    # str += "\n -> "
+    if util.normalize(capitalized_alert) not in util.normalize(final_alert):
+        str += capitalized_alert+"\n"
+
     str += final_alert
 
     # print(str)

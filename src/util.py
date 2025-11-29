@@ -8,6 +8,13 @@ def split_into_new_lines(text: str) -> str:
     return "\n".join(sentences)
 
 
+def normalize(text):
+    text = text.lower().strip()
+    text = re.sub(r'[^\w\s]', '', text)   # remove punctuation
+    text = re.sub(r'\s+', ' ', text)      # normalize spaces
+    return text
+
+
 # for asking text model some query
 def call_text_model(prompt: str, model: str) -> str:
     result = ollama.chat(

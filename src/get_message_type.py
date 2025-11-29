@@ -11,15 +11,15 @@ CRITICAL_KEYWORDS = [
 
     # 🔥 Fire & Hazards
     "fire", "burning", "smoke", "gas leak", "fuel leak",
-    "chemical", "toxic", "hazard", "radiation", "short circuit",
+    "chemical", "toxic", "hazard", "radiation", "short circuit", "firetruck", 
 
     # 🚑 Medical Emergencies
     "unconscious", "collapsed", "bleeding", "injured", "injury",
     "dead", "death", "cardiac", "heart attack", "seizure",
-    "not breathing", "overdose",
+    "not breathing", "overdose", "laying", "lying", "motionless", "choking", "suffocating", 
 
     # 🚗 Road & Transport Disasters
-    "crash", "accident", "collision", "pileup", "overturned",
+    "crash", "accident", "collision", "pileup", "overturned", "fallen",
     "run over", "derailed", "smoke", "crash", "collapse", "crashed", "busy street", "busy road",
 
     # 🌊 Natural Disasters
@@ -36,7 +36,7 @@ CRITICAL_KEYWORDS = [
 
     #Misc
     "lying motionless", "unconscious", "person down", "motionless person", "blood",
-    "injury", "illegally", "crowd", "protest", "march",
+    "injury", "illegally", "crowd", "protest", "march", "swimming in flood", "flooded area", "swimming", "swim", "Swim"
 ]
 
 NON_CRITICAL_KEYWORDS = [
