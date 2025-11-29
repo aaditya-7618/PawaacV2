@@ -1,7 +1,6 @@
 from generate_captions_v2 import generate_caption
 from improve_message import improve_message
 
-
 def generate_alert_and_give_alert(image_path):
     # start_time = time.time()
 
