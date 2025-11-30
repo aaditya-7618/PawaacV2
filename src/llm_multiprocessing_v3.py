@@ -52,8 +52,8 @@ def do_llm_analysis_on_saved_video(video_path, output_folder, interval_sec=3):
 
 
 if __name__ == "__main__":
-    video_path = env.VIDEO_PATH
     # video_path = env.FIRE_VIDEO_PATH
     # video_path = env.NORMAL_VIDEO_PATH
+    video_path = env.VIDEO_PATH
     output_folder = env.OUTPUT_FOLDER
     do_llm_analysis_on_saved_video(video_path, output_folder, interval_sec=env.GAP)

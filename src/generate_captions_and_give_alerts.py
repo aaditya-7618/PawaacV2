@@ -9,9 +9,9 @@ def generate_alert_and_give_alert(image_path):
 
     # end_time = time.time()
     # print(f"⏱️ Time taken: {end_time - start_time:.2f} seconds\n")
-
+    # print("Processing image:", image_path)
     print(improved_alert)
     print("\n")
 
 
-# print(generate_alert_and_give_alert(env.IMAGE_PATH7))
+# print(generate_alert_and_give_alert("/Users/aadi/Desktop/pawaac/images/040.jpg"))
